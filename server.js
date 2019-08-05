@@ -10,7 +10,7 @@ app.use('/api/', apiRoutes);
 app.use('/', htmlRoutes);
 
 app.listen(
-  3000,
+  9000,
   '0.0.0.0',
   () => console.log(`Server Running`),
 );
